@@ -24,8 +24,6 @@ class BinaryMinHeap
       @store = self.class.heapify_down(@store, 0, &@prc)
       val
     end
-    # heapify down
-    # decrement count
   end
 
   def peek
