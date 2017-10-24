@@ -168,7 +168,6 @@ class BinarySearchTree
     num_depth(depth, tree_node.left)
     num_depth(depth, tree_node.right)
 
-    # puts max_depth
     @max_depth
   end
 
